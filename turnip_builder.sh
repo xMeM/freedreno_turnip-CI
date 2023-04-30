@@ -51,6 +51,7 @@ curl https://gitlab.freedesktop.org/Danil/mesa/-/archive/TEST/turnip/a7xx-basic-
 ###
 echo "Exracting mesa source to a folder ..." $'\n'
 unzip mesa-main.zip &> /dev/null
+mv mesa-TEST-turnip-a7xx-basic-support mesa-main
 cd mesa-main
 
 
